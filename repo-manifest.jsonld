@@ -8,7 +8,8 @@
     {
       "@id": "https://repolex.ai/r/tcmetzger/sphinx-favicon/commit/95a723a0fe71a26d110b671854d6bc8e87d1c850",
       "git:hexsha": "95a723a0fe71a26d110b671854d6bc8e87d1c850",
-      "repolex:parseStatus": "ast_complete"
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-11-06T02:35:33.495553+00:00"
     },
     {
       "@id": "https://repolex.ai/r/tcmetzger/sphinx-favicon/commit/f4a0943afdd2558fdfa7924a11121ee8d039f823",
