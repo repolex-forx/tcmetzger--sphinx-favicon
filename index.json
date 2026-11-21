@@ -3,6 +3,11 @@
   "repo": "sphinx-favicon",
   "versions": [
     {
+      "commit": "44313a38e29e3ee2105c13703ead59ccca3988f5",
+      "tag": "v1.1.0",
+      "parsed_at": "2026-11-21T23:27:39.777490+00:00"
+    },
+    {
       "commit": "95a723a0fe71a26d110b671854d6bc8e87d1c850",
       "tag": "",
       "parsed_at": "2026-11-06T02:35:33.507064+00:00"
