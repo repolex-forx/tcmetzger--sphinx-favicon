@@ -1,0 +1,16 @@
+[2026-11-21T23:25:17Z] === ENRICH ITERATION 1 START | repo=tcmetzger/sphinx-favicon sha=44313a38 ===
+[2026-11-21T23:25:17Z] [iter=1] PHASE START: enrich repo=tcmetzger/sphinx-favicon sha=44313a38 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/44313a38-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/44313a38e29e3ee2105c13703ead59ccca3988f5.nq.gz
+[2026-11-21T23:25:25Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-11-21T23:25:26Z] [iter=1] AST store loaded triples=31539 load_secs=0 mem_mb=127 MB
+[2026-11-21T23:25:26Z] [iter=1] Step 2: Finding LSP targets mem_mb=127 MB
+[2026-11-21T23:25:26Z] [iter=1] LSP targets found call_sites=125 imports=20 extends=0 implements=0 secs=0
+[2026-11-21T23:25:26Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=127 MB
+[2026-11-21T23:25:26Z] [iter=1] Position index built positions=2249 nodes_with_types=2965 secs=0 mem_mb=127 MB
+[2026-11-21T23:25:26Z] [iter=1] Step 3: Starting LSP resolution mem_mb=127 MB already_completed_types=[] already_completed_files=0
+[2026-11-21T23:25:26Z] [iter=1] Resolving target type target_type=call_site count=125
+[2026-11-21T23:25:32Z] [iter=1] Target type resolved target_type=call_site resolved=72 errors=0 secs=6 mem_mb=127 MB
+[2026-11-21T23:25:32Z] [iter=1] Resolving target type target_type=import_statement count=20
+[2026-11-21T23:25:33Z] [iter=1] Target type resolved target_type=import_statement resolved=13 errors=0 secs=1 mem_mb=127 MB
+[2026-11-21T23:25:35Z] [iter=1] Step 5: Writing final enrichment file triples=1683
+[2026-11-21T23:25:35Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/44313a38e29e3ee2105c13703ead59ccca3988f5.nq.gz size_kb=26
+[2026-11-21T23:25:35Z] [iter=1] PHASE END: enrich elapsed_s=18 elapsed_min=0.3 total_triples=1683
